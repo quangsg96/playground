@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSD to HTML</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- GOOGLE FONTS CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verified User">
+  <!-- GOOGLE FONTS - POPPINS 300 400 500 600 700 800  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- STYLE.CSS -->
+  <link rel="stylesheet" href="./sass/css/style.css">
+</head>
+<body>
+  <div class="wrapper" id="wrapper">
+        <header class="header">
+              <div class="container header__container">
+                <div class="logo">
+                  <a href="#">Play<span>ground</span></a>
+                </div>
+                <div class="menu-hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <ul class="header__list">
+                  <li class="header__item"><span id="menu-dropdown" href="#">Events&nbsp&nbsp<i class="fas fa-chevron-down"></i></span>
+                    <ul class="header__dropdown" id="header__dropdown">
+                      <li class="header__dropdown--item"><a href="https://www.google.com/">Events for Kids</a></li>
+                      <li class="header__dropdown--item"><a href="https://www.google.com/">Events for Parents</a></li>
+                      <li class="header__dropdown--item"><a href="https://www.google.com/">Events for Guests</a></li>
+                      <li class="header__dropdown--item"><a href="https://www.google.com/">Game & Gifts</a></li>
+                    </ul>
+                  </li>
+                  <li class="header__item"><a href="https://www.google.com/">Pricing</a></li>
+                  <li class="header__item"><a href="https://www.google.com/">Blog</a></li>
+                  <li class="header__btn" id="header__btn"><a href="#">Log in</a></li>
+                </ul>
+              </div>
+        </header>
+        <section class="menu" id="menu">
+          <div class="logo menu__logo">
+            <a href="#">Play<span>ground</span></a>
+          </div>
+          <div class="menu-hamburger-close" id="close">
+            <i class="fas fa-times"></i>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__item"><span class="menu__flex"><a href="#">Events</a> <i id="toggle-event" class="fas fa-chevron-down"></i></span>
+              <ul class="menu__dropdown" id="menu_event">
+                <li class="menu__dropdown--item"><a href="#">Events for Kids</a></li>
+                <li class="menu__dropdown--item"><a href="#">Events for Parents</a></li>
+                <li class="menu__dropdown--item"><a href="#">Events for Guests</a></li>
+                <li class="menu__dropdown--item"><a href="#">Games and Gifts</a></li>
+              </ul>
+            </li>
+            <li class="menu__item"><span class="menu__flex"><a href="#">About us</a> <i id="toggle-about" class="fas fa-chevron-down"></i></span>
+              <ul class="menu__dropdown" id="menu__about">
+                <li class="menu__dropdown--item"><a href="#">Who we are</a></li>
+                <li class="menu__dropdown--item"><a href="#">Services</a></li>
+                <li class="menu__dropdown--item"><a href="#">Features</a></li>
+                <li class="menu__dropdown--item"><a href="#">Reviews</a></li>
+              </ul>
+            </li>
+            <li class="menu__item"><span class="menu__flex"><a href="#">Join with us</a> <i id="toggle-join" class="fas fa-chevron-down"></i></span>
+              <ul class="menu__dropdown" id="menu__join">
+                <li class="menu__dropdown--item"><a href="#">Careers</a></li>
+                <li class="menu__dropdown--item"><a href="#">Press</a></li>
+                <li class="menu__dropdown--item"><a href="#">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="banner">
+              <div class="container">
+                <h1 class="banner__heading">The Kids Playground</h1>
+                <p class="banner__desc">The Playground, designed by nonprofit organization to be accessible for all children</p>
+                <div class="banner__btns">
+                    <a class="btn btn--border btn--rounded href="#">Explore</a>
+                    <a class="btn btn--primary btn--rounded href="#">Buy Tickets</a>
+                </div>
+              </div>
+        </section>
+        <section class="category">
+              <div class="container">
+                <div class="category__list">
+                  <div class="category__item">
+                    <img src="./images/img1.png" alt="">
+                    <a class="category__heading" href="#">Safe rides</a>
+                    <a href="#" class="category__desc">CC Certified<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                  <div class="category__item">
+                    <img src="./images/img2.png" alt="">
+                    <a class="category__heading" href="#">Delicious Foods</a>
+                    <a href="#" class="category__desc">Glutten Free<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                  <div class="category__item">
+                    <img src="./images/img3.png" alt="">
+                    <a class="category__heading" href="#">Entertainment</a>
+                    <a href="#" class="category__desc">Suitable for kids<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                  <div class="category__item">
+                    <img src="./images/img4.png" alt="">
+                    <a class="category__heading" href="#">Ice-cream</a>
+                    <a href="#" class="category__desc">No Synthetic<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="feature">
+          <div class="container feature__container">
+              <div class="feature__item">
+                <div class="feature__image">
+                  <img src="./images/img5.png" alt="">
+                </div>
+                <div class="feature__detail">
+                  <h2 class="feature__heading">The outdoor environment is age-appropriate to play</h2>
+                  <p class="feature__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates unde sapiente mollitia? Aspernatur, velit laborum consequuntur quibusdam quaerat ullam et harum, similique maiores rem eligendi voluptatem eius repellat sapiente!</p>
+                  <ul class="feature__intro">
+                    <li class="feature__intro-item"><a href="#">The Playground has been designed to feature a first responders theme.</a></li>
+                    <li class="feature__intro-item"><a href="#">Fully-inclusive playground offers rich experiences.</a></li>
+                    <li class="feature__intro-item"><a href="#">The project is set to open Spring 2019.</a></li>
+                  </ul>
+                  <a class="btn btn--primary btn--rounded feature__btn" href="#">Visit Now</a>
+                </div>
+              </div>
+              <div class="feature__item">
+                <div class="feature__image">
+                  <img src="./images/img6.png" alt="">
+                </div>
+                <div class="feature__detail">
+                  <h2 class="feature__heading">The best Aquapark for kids</h2>
+                  <p class="feature__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates unde sapiente mollitia? Aspernatur, velit laborum consequuntur quibusdam quaerat ullam et harum, similique maiores rem eligendi voluptatem eius repellat sapiente!</p>
+                  <ul class="feature__aqua">
+                    <li class="feature__aqua-item">The Fire Truck with Free Food</li>
+                    <li class="feature__aqua-item">The Police Car with Costume</li>
+                    <li class="feature__aqua-item">The Roller Coaster with Safety</li>
+                    <li class="feature__aqua-item">The Best Entering Events</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="feature__item">
+                <div class="feature__image">
+                  <img src="./images/img7.png" alt="">
+                </div>
+                <div class="feature__detail">
+                  <h2 class="feature__heading">Why we are the best</h2>
+                  <p class="feature__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates unde sapiente mollitia? Aspernatur!</p>
+                  <ul class="feature__best">
+                    <li class="feature__best-item">
+                      <div class="feature__best-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                      </div>
+                      <h3 class="feature__best-heading">Non Profitable Organization</h3>
+                      <p class="feature__best-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="feature__best-item">
+                      <div class="feature__best-icon">
+                        <i class="far fa-handshake"></i>
+                      </div>
+                      <h3 class="feature__best-heading">Customer Support</h3>
+                      <p class="feature__best-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="feature__best-item">
+                      <div class="feature__best-icon">
+                        <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h3 class="feature__best-heading">High Safety & Security</h3>
+                      <p class="feature__best-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="feature__best-item">
+                      <div class="feature__best-icon">
+                        <i class="fas fa-paint-brush"></i>
+                      </div>
+                      <h3 class="feature__best-heading">Well Designed and Decorated</h3>
+                      <p class="feature__best-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class="partner">
+          <h2 class="partner__heading">Our business partners</h2>
+          <ul class="partner__list">
+            <li><img src="./images/logo-amazon.png" alt=""></li>
+            <li><img src="./images/logo-netflix.png" alt=""></li>
+            <li><img src="./images/logo-newyork.png" alt=""></li>
+            <li><img src="./images/logo-stripe.png" alt=""></li>
+          </ul>
+        </section>
+        <section class="connect">
+          <div class="container">
+            <h1 class="connect__heading">For kids who enjoy themeselves</h1>
+            <p class="connect__desc">Connect with us <a href="#">@Playground</a></p>
+            <ul class="connect__list">
+              <li><img src="./images/img-8.png" alt=""></li>
+              <li><img src="./images/img9.png" alt=""></li>
+              <li><img src="./images/img10.png" alt=""></li>
+              <li><img src="./images/img11.png" alt=""></li>
+            </ul>
+          </div>
+        </section>
+        <section class="subscribe">
+          <div class="container subscribe__container">
+            <h1 class="subscribe__heading">Subscribe to our newsletter to get future offers</h1>
+            <div class="subscribe__info">
+              <form class="form">
+                <input class="form__input" type="text" placeholder="Enter your email"><button class="form__btn">Subscribe</button>
+              </form>
+              <div class="subscribe__social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container footer__container">
+            <div class="logo footer__logo">
+              <a href="#">Play<span>ground</span></a>
+            </div>
+            <div class="footer__list">
+              <ul class="footer__item">
+                <li class="footer__item--link"><a href="#">Events for Kids</a></li>
+                <li class="footer__item--link"><a href="#">Events for Parents</a></li>
+                <li class="footer__item--link"><a href="#">Events for Guests</a></li>
+                <li class="footer__item--link"><a href="#">Games and Gifts</a></li>
+              </ul>
+              <ul class="footer__item">
+                <li class="footer__item--link"><a href="#">Events</a></li>
+                <li class="footer__item--link"><a href="#">Who We Are</a></li>
+                <li class="footer__item--link"><a href="#">Services</a></li>
+                <li class="footer__item--link"><a href="#">Features</a></li>
+                <li class="footer__item--link"><a href="#">Reviews</a></li>
+              </ul>
+              <ul class="footer__item">
+                <li class="footer__item--link"><a href="#">Careers</a></li>
+                <li class="footer__item--link"><a href="#">Press</a></li>
+                <li class="footer__item--link"><a href="#">Help</a></li>
+              </ul>
+            </div>
+          </div>
+  </footer>
+  </div>
+  <script src="./js/interaction.js"></script>
+</body>
+</html>

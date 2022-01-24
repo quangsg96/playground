@@ -1,0 +1,29 @@
+@mixin flex($align: flex-start, $justify: flex-start, $wrap: wrap) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin lineBreak {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // max-width: 100%;
+  // width: 100%;
+  // white-space: nowrap;
+}
+@mixin wordBreak {
+  word-break: break-all;
+}
+@mixin list {
+  list-style: none;
+  padding: 0;
+}
